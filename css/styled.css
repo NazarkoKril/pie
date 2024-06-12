@@ -1640,7 +1640,7 @@ html {
     padding-top: 20px;
   }
 
-  .popup-text {
+  #popup-text {
     height: 320px;
     overflow: scroll;
   }
