@@ -1643,7 +1643,7 @@ html {
 
 .popup-content {
   width: 100%;
-  transform: translateY(7%);
+  transform: translateY(2%);
 }
 
 @media (max-width: 348px) {
