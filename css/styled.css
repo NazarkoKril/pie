@@ -1639,12 +1639,19 @@ html {
   .footer__top {
     padding-top: 20px;
   }
+
+  .popup-text {
+    height: 320px;
+    overflow: scroll;
+  }
+
+  .popup-content {
+    width: 100%;
+    transform: translateY(2%);
+  }
 }
 
-.popup-content {
-  width: 100%;
-  transform: translateY(2%);
-}
+
 
 @media (max-width: 348px) {
   .section__object-card p {
