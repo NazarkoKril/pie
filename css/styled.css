@@ -1499,8 +1499,14 @@ html {
 
 @media (max-width: 450px) {
   .hero_eye {
-    width: 85px;
-    height: 85px;
+    width: 80px;
+    height: 80px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .hero_eye img {
+    width: 100%;
   }
 
   .project__slider {
@@ -1651,7 +1657,14 @@ html {
   }
 }
 
+@media (max-width: 400px) {
 
+  .hero__left,
+  .hero__right {
+    max-width: 230px;
+    margin: auto;
+  }
+}
 
 @media (max-width: 348px) {
   .section__object-card p {
